@@ -1,0 +1,28 @@
+# Data Pipeline Configuration
+source_url: "https://database.lichess.org/standard/lichess_db_standard_rated_2024-01.pgn.zst"
+local_zst_path: "data/raw/lichess_sample.pgn.zst"
+output_parquet_dir: "data/processed/positions.parquet"
+checkpoint_file: "data/processed/pipeline_state.json"
+quality_report_md: "data/data_quality_report.md"
+quality_report_json: "data/data_quality_report.json"
+
+target_positions: 300000
+batch_size: 5000
+
+min_rating: 800
+max_rating: 2400
+allowed_speeds:
+  - "blitz"
+  - "rapid"
+
+blunder_threshold_cp: 200.0
+mate_score_cp: 10000.0
+dead_lost_threshold_cp: -800.0
+ignore_dead_lost: true
+win_prob_scaling: 400.0
+win_prob_blunder_threshold: 0.15
+clearly_winning_threshold: 0.80
+dead_lost_threshold_prob: 0.02
+
+partition_cols:
+  - "rating_band"

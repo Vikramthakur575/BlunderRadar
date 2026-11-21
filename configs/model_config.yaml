@@ -1,0 +1,38 @@
+# Model Training Configuration
+random_seed: 42
+data_path: "data/processed/positions.parquet"
+features_path: "data/processed/features.parquet"
+models_dir: "models"
+docs_dir: "docs"
+tune_sample_size: 60000
+target_col: "is_blunder"
+
+test_size: 0.15
+val_size: 0.15
+cv_folds: 5
+
+eval_feature_modes:
+  - "with_eval"
+  - "without_eval"
+
+rating_bands:
+  low: [800, 1200]
+  mid: [1200, 1800]
+  high: [1800, 2400]
+
+models:
+  - "majority_class"
+  - "logistic_regression"
+  - "xgboost"
+  - "lightgbm"
+
+optuna:
+  n_trials: 8
+  timeout_seconds: 90
+
+calibration:
+  method: "isotonic"  # or "sigmoid" (Platt)
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "blunder_radar_experiments"

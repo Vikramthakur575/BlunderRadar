@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blunder-radar"
+version = "0.1.0"
+description = "Production chess blunder probability prediction engine with explainability and live stream support"
+readme = "README.md"
+authors = [{ name = "BlunderRadar Team" }]
+requires-python = ">=3.11"
+dependencies = [
+    # Core: everything needed to SERVE the model (API + dashboard + live scoring worker).
+    "chess>=1.10.0",
+    "zstandard>=0.22.0",
+    "pandas>=2.1.0",
+    "numpy>=1.26.0",
+    "pyarrow>=14.0.0",
+    "scikit-learn>=1.8.0,<1.9",
+    "xgboost>=2.0.0,<4",
+    "lightgbm>=4.0.0,<5",
+    "joblib>=1.3.0",
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "pydantic>=2.4.0",
+    "streamlit>=1.50.0",
+    "plotly>=5.18.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Retraining and reporting
+train = [
+    "optuna>=3.4.0",
+    "shap>=0.44.0",
+    "mlflow>=2.9.0",
+    "matplotlib>=3.8.0",
+    "polars>=0.20.0",
+]
+# Live pipeline (Kafka + Lichess TV feed)
+stream = [
+    "kafka-python-ng>=2.2.0",
+    "requests>=2.31.0",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "httpx>=0.25.0",
+]
+# Everything, for local development and CI
+all = ["blunder-radar[train,stream,dev]"]
+
+[project.scripts]
+blunder-radar = "blunder_radar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

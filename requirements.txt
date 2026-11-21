@@ -1,0 +1,17 @@
+# Runtime dependencies for hosting the dashboard (Streamlit Community Cloud reads this file).
+# Keep in sync with [project.dependencies] in pyproject.toml (a test enforces it).
+chess>=1.10.0
+zstandard>=0.22.0
+pandas>=2.1.0
+numpy>=1.26.0
+pyarrow>=14.0.0
+scikit-learn>=1.8.0,<1.9
+xgboost>=2.0.0,<4
+lightgbm>=4.0.0,<5
+joblib>=1.3.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.4.0
+streamlit>=1.50.0
+plotly>=5.18.0
+pyyaml>=6.0

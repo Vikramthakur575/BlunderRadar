@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.venv/
+env/
+venv/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data and artifacts (except tracked fixtures)
+data/processed/
+data/raw/
+data/*.json
+data/*.db
+data/pipeline_state.json
+!data/sample/
+
+# Streamlit (config.toml is committed; secrets never)
+.streamlit/secrets.toml
+
+mlflow.db
+*.db
