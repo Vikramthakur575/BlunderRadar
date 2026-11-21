@@ -1,0 +1,54 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/testgm01"]
+[Date "2024.01.15"]
+[UTCDate "2024.01.15"]
+[WhiteElo "1500"]
+[BlackElo "1520"]
+[TimeControl "300+0"]
+[Result "1-0"]
+
+1. e4 { [%eval 0.20] [%clk 0:05:00] } 1... e5 { [%eval 0.15] [%clk 0:04:58] } 2. Nf3 { [%eval 0.25] [%clk 0:04:55] } 2... Nc6 { [%eval 0.20] [%clk 0:04:52] } 3. Bc4 { [%eval 0.18] [%clk 0:04:50] } 3... Bc5 { [%eval 0.22] [%clk 0:04:48] } 4. c3 { [%eval 0.10] [%clk 0:04:45] } 4... Nf6 { [%eval 0.15] [%clk 0:04:42] } 5. d4 { [%eval 0.30] [%clk 0:04:40] } 5... exd4 { [%eval 0.25] [%clk 0:04:38] } 6. cxd4 { [%eval 0.28] [%clk 0:04:35] } 6... Bb4+ { [%eval 0.20] [%clk 0:04:30] } 7. Bd2 { [%eval 0.15] [%clk 0:04:25] } 7... Bxd2+ { [%eval 0.18] [%clk 0:04:20] } 8. Nbxd2 { [%eval 0.20] [%clk 0:04:18] } 8... d5 { [%eval 0.22] [%clk 0:04:10] } 9. exd5 { [%eval 0.15] [%clk 0:04:12] } 9... Nxd5 { [%eval 0.10] [%clk 0:04:05] } 10. Qb3 { [%eval 0.35] [%clk 0:04:08] } 10... Nce7 { [%eval 0.40] [%clk 0:03:55] } 11. O-O { [%eval 0.30] [%clk 0:04:00] } 11... O-O { [%eval 0.25] [%clk 0:03:45] } 12. Rfe1 { [%eval 0.35] [%clk 0:03:52] } 12... c6 { [%eval 0.30] [%clk 0:03:30] } 13. a4 { [%eval 0.20] [%clk 0:03:40] } 13... Qb6 { [%eval 0.25] [%clk 0:03:15] } 14. Qa3 { [%eval 0.30] [%clk 0:03:32] } 14... Be6 { [%eval 0.28] [%clk 0:03:00] } 15. Ng5 { [%eval 0.40] [%clk 0:03:20] } 15... Qxd4 { [%eval 3.80] [%clk 0:02:40] } 16. Nxe6 { [%eval 3.90] [%clk 0:03:10] } 16... fxe6 { [%eval 3.75] [%clk 0:02:35] } 17. Nf3 { [%eval 3.85] [%clk 0:03:00] } 17... Qf6 { [%eval 3.90] [%clk 0:02:20] } 18. Qd6 { [%eval 4.20] [%clk 0:02:50] } 18... Nf4 { [%eval 4.10] [%clk 0:02:00] } 19. Bxe6+ { [%eval 4.30] [%clk 0:02:45] } 19... Kh8 { [%eval 4.25] [%clk 0:01:50] } 20. Qe5 { [%eval 4.10] [%clk 0:02:30] } 20... Nd3 { [%eval #2] [%clk 0:01:20] } 1-0
+
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/testgm02"]
+[Date "2024.01.16"]
+[UTCDate "2024.01.16"]
+[WhiteElo "980"]
+[BlackElo "1020"]
+[TimeControl "600+0"]
+[Result "0-1"]
+
+1. d4 { [%eval 0.25] [%clk 0:10:00] } 1... d5 { [%eval 0.20] [%clk 0:09:55] } 2. Bf4 { [%eval 0.15] [%clk 0:09:48] } 2... Nf6 { [%eval 0.18] [%clk 0:09:45] } 3. e3 { [%eval 0.10] [%clk 0:09:40] } 3... c5 { [%eval 0.12] [%clk 0:09:38] } 4. c3 { [%eval 0.05] [%clk 0:09:30] } 4... Nc6 { [%eval 0.00] [%clk 0:09:25] } 5. Nd2 { [%eval 0.00] [%clk 0:09:20] } 5... Bf5 { [%eval -0.10] [%clk 0:09:15] } 6. Ngf3 { [%eval -0.05] [%clk 0:09:10] } 6... e6 { [%eval -0.05] [%clk 0:09:05] } 7. Be2 { [%eval -0.10] [%clk 0:09:00] } 7... Bd6 { [%eval -0.08] [%clk 0:08:50] } 8. Bg3 { [%eval -0.15] [%clk 0:08:45] } 8... O-O { [%eval -0.10] [%clk 0:08:40] } 9. O-O { [%eval -0.12] [%clk 0:08:35] } 9... Bxg3 { [%eval -0.15] [%clk 0:08:25] } 10. hxg3 { [%eval -0.10] [%clk 0:08:30] } 10... Qd6 { [%eval -0.12] [%clk 0:08:15] } 11. Nh4 { [%eval -0.20] [%clk 0:08:10] } 11... Be4 { [%eval -0.15] [%clk 0:08:00] } 12. Nxe4 { [%eval -0.25] [%clk 0:08:00] } 12... Nxe4 { [%eval -0.20] [%clk 0:07:50] } 13. Bd3 { [%eval -0.30] [%clk 0:07:45] } 13... f5 { [%eval -0.25] [%clk 0:07:35] } 14. Nf3 { [%eval -0.35] [%clk 0:07:30] } 14... c4 { [%eval -0.30] [%clk 0:07:20] } 15. Bc2 { [%eval -0.40] [%clk 0:07:15] } 15... b5 { [%eval -0.35] [%clk 0:07:10] } 16. Nd2 { [%eval -0.50] [%clk 0:07:00] } 16... Rf6 { [%eval -0.45] [%clk 0:06:55] } 17. Nxe4 { [%eval -0.60] [%clk 0:06:40] } 17... fxe4 { [%eval -0.55] [%clk 0:06:50] } 18. f4 { [%eval -1.20] [%clk 0:06:20] } 18... exf3 { [%eval -1.15] [%clk 0:06:40] } 19. Rxf3 { [%eval -1.30] [%clk 0:06:05] } 19... Raf8 { [%eval -1.25] [%clk 0:06:30] } 20. Qe2 { [%eval -4.50] [%clk 0:05:40] } 20... e5 { [%eval -4.40] [%clk 0:06:15] } 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/testgm03"]
+[Date "2024.01.17"]
+[UTCDate "2024.01.17"]
+[WhiteElo "2150"]
+[BlackElo "2180"]
+[TimeControl "180+2"]
+[Result "1/2-1/2"]
+
+1. e4 { [%eval 0.20] [%clk 0:03:00] } 1... c5 { [%eval 0.25] [%clk 0:03:00] } 2. Nf3 { [%eval 0.20] [%clk 0:03:01] } 2... d6 { [%eval 0.22] [%clk 0:03:00] } 3. d4 { [%eval 0.25] [%clk 0:03:02] } 3... cxd4 { [%eval 0.20] [%clk 0:03:01] } 4. Nxd4 { [%eval 0.22] [%clk 0:03:03] } 4... Nf6 { [%eval 0.20] [%clk 0:03:02] } 5. Nc3 { [%eval 0.25] [%clk 0:03:04] } 5... a6 { [%eval 0.28] [%clk 0:03:03] } 6. Be3 { [%eval 0.30] [%clk 0:03:04] } 6... e5 { [%eval 0.32] [%clk 0:03:02] } 7. Nb3 { [%eval 0.25] [%clk 0:03:03] } 7... Be6 { [%eval 0.28] [%clk 0:03:01] } 8. f3 { [%eval 0.30] [%clk 0:03:02] } 8... Nbd7 { [%eval 0.28] [%clk 0:02:58] } 9. Qd2 { [%eval 0.35] [%clk 0:03:00] } 9... b5 { [%eval 0.32] [%clk 0:02:55] } 10. O-O-O { [%eval 0.40] [%clk 0:02:58] } 10... Be7 { [%eval 0.38] [%clk 0:02:50] } 1/2-1/2
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/testgm04"]
+[Date "2024.01.18"]
+[UTCDate "2024.01.18"]
+[WhiteElo "1600"]
+[BlackElo "1620"]
+[TimeControl "1800+0"]
+[Result "1-0"]
+
+1. e4 { [%eval 0.20] [%clk 0:30:00] } 1... e5 { [%eval 0.20] [%clk 0:30:00] } 2. Nf3 { [%eval 0.20] [%clk 0:29:55] } 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/testgm05"]
+[Date "2024.01.19"]
+[UTCDate "2024.01.19"]
+[WhiteElo "650"]
+[BlackElo "700"]
+[TimeControl "300+0"]
+[Result "1-0"]
+
+1. e4 { [%eval 0.20] [%clk 0:05:00] } 1... e5 { [%eval 0.20] [%clk 0:05:00] } 2. Nf3 { [%eval 0.20] [%clk 0:04:55] } 1-0
